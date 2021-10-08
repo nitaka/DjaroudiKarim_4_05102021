@@ -23,7 +23,7 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
+    z-index: 6;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -54,6 +54,10 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+.keywords{
+margin-bottom: 40px;
 }
 
 .bg-center,
@@ -100,7 +104,8 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
 }
 
 .d-bloc button:hover {
@@ -195,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -650,8 +655,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 800;
+    font-size: 1.2em;
 }
 
 .container {
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -723,7 +728,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #ffffff!important;
 }
 
 h4 {
@@ -737,6 +742,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 0.9em;
 }
 
 .portfolio-thumb {
@@ -771,15 +777,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #AD3700;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffa57b!important;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #AD3700;
     color: #FFFFFF!important;
 }
 
