@@ -9,7 +9,7 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;                                                        
     outline: none!important;
 }
 
@@ -340,6 +340,7 @@ margin-bottom: 40px;
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    border: rgb(99, 28, 0) 3px solid;
 }
 
 .navbar-toggle {
@@ -454,7 +455,7 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
-.btn.pull-right {
+.btn.pull-right {   
     margin: 0 0 5px 5px;
 }
 
@@ -469,7 +470,10 @@ button {
     outline: none!important;
 }
 
-.btn-rd {
+a:focus{
+    background: rgb(255, 147, 114) !important;
+}
+.btn-rd {               
     border-radius: 40px;
 }
 
@@ -656,7 +660,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 800;
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 .container {
