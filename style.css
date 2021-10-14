@@ -864,6 +864,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1031,6 +1032,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    img{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
